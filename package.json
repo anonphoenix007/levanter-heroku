@@ -3,8 +3,9 @@
   "version": "5.3.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node ind3ex.js"
+    "scripts": {
+    "start": "pm2 start . --attach --name mia-mdv2.0",
+    "stop": "pm2 stop mia-mdv2.0"
   },
   "author": "",
   "license": "ISC",
